@@ -1,71 +1,4094 @@
 [
   {
     "id": 1,
-    "nome": "Ana Souza",
-    "foto": "",
-    "cargo": "Engenheira de Software",
-    "resumo": "Full-stack focada em React e Node.",
-    "localizacao": "São Paulo/SP",
+    "nome": "Fernanda Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/women/2.jpg",
+    "cargo": "Engenheiro DevOps",
+    "resumo": "Profissional da área de Tecnologia, atuando como engenheiro devops com foco em inovação e colaboração.",
+    "biografia": "Fernanda é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como engenheiro devops, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1988,
+    "idade": 37,
+    "tempoExperiencia": "1 anos de experiência na área de tecnologia.",
+    "localizacao": "Rio de Janeiro/RJ",
     "area": "Tecnologia",
-    "habilidadesTecnicas": ["React", "Node.js", "SQL"],
-    "softSkills": ["Comunicação", "Trabalho em equipe"],
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
     "experiencias": [
-      { "empresa": "TechOne", "cargo": "Desenvolvedora", "inicio": "2023-02", "fim": "2024-08", "descricao": "Desenvolvimento de SPA em React." }
+      {
+        "empresa": "InovaTech",
+        "cargo": "Engenheiro DevOps",
+        "inicio": "2021-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
     ],
     "formacao": [
-      { "curso": "Bacharel em Sistemas", "instituicao": "FIAP", "ano": 2023 }
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
     ],
     "projetos": [
-      { "titulo": "Portal de Vagas", "link": "https://exemplo.com", "descricao": "Plataforma de busca de empregos." }
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/fernanda-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
     ],
-    "certificacoes": ["Scrum Foundation"],
-    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
-    "areaInteresses": ["IA ética", "Educação"]
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "fernanda.ribeiro@outlook.com",
+      "telefone": "(51) 99063-9470",
+      "linkedin": "https://linkedin.com/in/fernanda-ribeiro",
+      "github": "https://github.com/fernanda-ribeiro",
+      "instagram": "https://instagram.com/fernanda.ribeiro"
+    }
   },
   {
     "id": 2,
-    "nome": "Bruno Lima",
-    "foto": "",
-    "cargo": "Designer UI/UX",
-    "resumo": "Designer com foco em usabilidade e pesquisa.",
-    "localizacao": "Curitiba/PR",
-    "area": "Design",
-    "habilidadesTecnicas": ["Figma", "UX Research", "Design System"],
-    "softSkills": ["Criatividade", "Empatia"],
+    "nome": "Giovana Cardoso",
+    "foto": "https://randomuser.me/api/portraits/women/50.jpg",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedora mobile com foco em inovação e colaboração.",
+    "biografia": "Giovana é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedora mobile, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "7 anos de experiência na área de tecnologia.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
     "experiencias": [
-      { "empresa": "StudioX", "cargo": "UI/UX", "inicio": "2022-01", "fim": "2024-06", "descricao": "Design de apps e design system." }
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
     ],
     "formacao": [
-      { "curso": "Design Digital", "instituicao": "UTFPR", "ano": 2022 }
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
     ],
     "projetos": [
-      { "titulo": "Design System Atlas", "link": "https://exemplo.com", "descricao": "Sistema de componentes." }
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/giovana-cardoso",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
     ],
-    "certificacoes": ["NN/g UX Certification"],
-    "idiomas": [{ "idioma": "Espanhol", "nivel": "Intermediário" }],
-    "areaInteresses": ["Acessibilidade", "Educação"]
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "giovana.cardoso@hotmail.com",
+      "telefone": "(41) 96181-7966",
+      "linkedin": "https://linkedin.com/in/giovana-cardoso",
+      "github": "https://github.com/giovana-cardoso",
+      "instagram": "https://instagram.com/giovana.cardoso"
+    }
   },
   {
     "id": 3,
-    "nome": "Carla Ribeiro",
-    "foto": "",
-    "cargo": "Cientista de Dados",
-    "resumo": "Modelagem, dashboards e MLOps.",
-    "localizacao": "Belo Horizonte/MG",
-    "area": "Dados",
-    "habilidadesTecnicas": ["Python", "Pandas", "Power BI"],
-    "softSkills": ["Resiliência", "Comunicação"],
+    "nome": "Beatriz Alves",
+    "foto": "https://randomuser.me/api/portraits/women/95.jpg",
+    "cargo": "Engenheiro DevOps",
+    "resumo": "Profissional da área de Tecnologia, atuando como engenheiro devops com foco em inovação e colaboração.",
+    "biografia": "Beatriz é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como engenheiro devops, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "2 anos de experiência na área de tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
     "experiencias": [
-      { "empresa": "DataLab", "cargo": "CD Jr.", "inicio": "2021-03", "fim": "2024-02", "descricao": "ETL e análises exploratórias." }
+      {
+        "empresa": "InovaTech",
+        "cargo": "Engenheiro DevOps",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
     ],
     "formacao": [
-      { "curso": "MSc Data Science", "instituicao": "PUC Minas", "ano": 2021 }
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
     ],
     "projetos": [
-      { "titulo": "Previsão de Demanda", "link": "https://exemplo.com", "descricao": "Modelos de série temporal." }
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/beatriz-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
     ],
-    "certificacoes": ["AWS Certified Cloud Practitioner"],
-    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
-    "areaInteresses": ["Saúde", "Sustentabilidade"]
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "beatriz.alves@hotmail.com",
+      "telefone": "(41) 94314-1755",
+      "linkedin": "https://linkedin.com/in/beatriz-alves",
+      "github": "https://github.com/beatriz-alves",
+      "instagram": "https://instagram.com/beatriz.alves"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Fernanda Martins",
+    "foto": "https://randomuser.me/api/portraits/women/72.jpg",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedora mobile com foco em inovação e colaboração.",
+    "biografia": "Fernanda é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedora mobile, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "5 anos de experiência na área de tecnologia.",
+    "localizacao": "Curitiba/PR",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/fernanda-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "fernanda.martins@outlook.com",
+      "telefone": "(21) 96206-4762",
+      "linkedin": "https://linkedin.com/in/fernanda-martins",
+      "github": "https://github.com/fernanda-martins",
+      "instagram": "https://instagram.com/fernanda.martins"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "João Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/56.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedor full stack com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedor full stack, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "2 anos de experiência na área de tecnologia.",
+    "localizacao": "Curitiba/PR",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedor Full Stack",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/joão-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.ribeiro@gmail.com",
+      "telefone": "(51) 99585-8901",
+      "linkedin": "https://linkedin.com/in/joão-ribeiro",
+      "github": "https://github.com/joão-ribeiro",
+      "instagram": "https://instagram.com/joão.ribeiro"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Bruno Moura",
+    "foto": "https://randomuser.me/api/portraits/men/58.jpg",
+    "cargo": "Engenheiro DevOps",
+    "resumo": "Profissional da área de Tecnologia, atuando como engenheiro devops com foco em inovação e colaboração.",
+    "biografia": "Bruno é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como engenheiro devops, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "6 anos de experiência na área de tecnologia.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Engenheiro DevOps",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/bruno-moura",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "bruno.moura@outlook.com",
+      "telefone": "(11) 94412-9234",
+      "linkedin": "https://linkedin.com/in/bruno-moura",
+      "github": "https://github.com/bruno-moura",
+      "instagram": "https://instagram.com/bruno.moura"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Camila Martins",
+    "foto": "https://randomuser.me/api/portraits/women/53.jpg",
+    "cargo": "Analista de QA",
+    "resumo": "Profissional da área de Tecnologia, atuando como analista de qa com foco em inovação e colaboração.",
+    "biografia": "Camila é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como analista de qa, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "1 anos de experiência na área de tecnologia.",
+    "localizacao": "Campinas/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de QA",
+        "inicio": "2021-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/camila-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "camila.martins@hotmail.com",
+      "telefone": "(21) 97366-5374",
+      "linkedin": "https://linkedin.com/in/camila-martins",
+      "github": "https://github.com/camila-martins",
+      "instagram": "https://instagram.com/camila.martins"
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Isabela Martins",
+    "foto": "https://randomuser.me/api/portraits/women/20.jpg",
+    "cargo": "Analista de QA",
+    "resumo": "Profissional da área de Tecnologia, atuando como analista de qa com foco em inovação e colaboração.",
+    "biografia": "Isabela é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como analista de qa, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "8 anos de experiência na área de tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de QA",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/isabela-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "isabela.martins@hotmail.com",
+      "telefone": "(21) 99364-9740",
+      "linkedin": "https://linkedin.com/in/isabela-martins",
+      "github": "https://github.com/isabela-martins",
+      "instagram": "https://instagram.com/isabela.martins"
+    }
+  },
+  {
+    "id": 9,
+    "nome": "Ana Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/84.jpg",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedora mobile com foco em inovação e colaboração.",
+    "biografia": "Ana é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedora mobile, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1991,
+    "idade": 34,
+    "tempoExperiencia": "7 anos de experiência na área de tecnologia.",
+    "localizacao": "Curitiba/PR",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/ana-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "ana.freitas@hotmail.com",
+      "telefone": "(21) 93813-1732",
+      "linkedin": "https://linkedin.com/in/ana-freitas",
+      "github": "https://github.com/ana-freitas",
+      "instagram": "https://instagram.com/ana.freitas"
+    }
+  },
+  {
+    "id": 10,
+    "nome": "Diego Lima",
+    "foto": "https://randomuser.me/api/portraits/men/15.jpg",
+    "cargo": "Desenvolvedora Mobile",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedora mobile com foco em inovação e colaboração.",
+    "biografia": "Diego é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedora mobile, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1997,
+    "idade": 28,
+    "tempoExperiencia": "3 anos de experiência na área de tecnologia.",
+    "localizacao": "São Paulo/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedora Mobile",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/diego-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "diego.lima@outlook.com",
+      "telefone": "(21) 93089-3565",
+      "linkedin": "https://linkedin.com/in/diego-lima",
+      "github": "https://github.com/diego-lima",
+      "instagram": "https://instagram.com/diego.lima"
+    }
+  },
+  {
+    "id": 11,
+    "nome": "Bruno Lima",
+    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "cargo": "Desenvolvedor Full Stack",
+    "resumo": "Profissional da área de Tecnologia, atuando como desenvolvedor full stack com foco em inovação e colaboração.",
+    "biografia": "Bruno é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como desenvolvedor full stack, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2001,
+    "idade": 24,
+    "tempoExperiencia": "4 anos de experiência na área de tecnologia.",
+    "localizacao": "Curitiba/PR",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedor Full Stack",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/bruno-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "bruno.lima@outlook.com",
+      "telefone": "(51) 91123-4381",
+      "linkedin": "https://linkedin.com/in/bruno-lima",
+      "github": "https://github.com/bruno-lima",
+      "instagram": "https://instagram.com/bruno.lima"
+    }
+  },
+  {
+    "id": 12,
+    "nome": "João Rocha",
+    "foto": "https://randomuser.me/api/portraits/men/58.jpg",
+    "cargo": "Analista de QA",
+    "resumo": "Profissional da área de Tecnologia, atuando como analista de qa com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por tecnologia e por gerar impacto positivo através da tecnologia. Atua como analista de qa, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1999,
+    "idade": 26,
+    "tempoExperiencia": "4 anos de experiência na área de tecnologia.",
+    "localizacao": "Campinas/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": [
+      "React",
+      "Node.js",
+      "Tailwind",
+      "Git",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de QA",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de tecnologia."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Tecnologia Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Tecnologia Futuro",
+        "link": "https://github.com/joão-rocha",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em tecnologia."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Tecnologia – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.rocha@gmail.com",
+      "telefone": "(51) 91375-4233",
+      "linkedin": "https://linkedin.com/in/joão-rocha",
+      "github": "https://github.com/joão-rocha",
+      "instagram": "https://instagram.com/joão.rocha"
+    }
+  },
+  {
+    "id": 13,
+    "nome": "Larissa Lima",
+    "foto": "https://randomuser.me/api/portraits/women/39.jpg",
+    "cargo": "Designer de Interação",
+    "resumo": "Profissional da área de Design, atuando como designer de interação com foco em inovação e colaboração.",
+    "biografia": "Larissa é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer de interação, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1991,
+    "idade": 34,
+    "tempoExperiencia": "4 anos de experiência na área de design.",
+    "localizacao": "Campinas/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer de Interação",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/larissa-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "larissa.lima@gmail.com",
+      "telefone": "(31) 97695-1009",
+      "linkedin": "https://linkedin.com/in/larissa-lima",
+      "github": "https://github.com/larissa-lima",
+      "instagram": "https://instagram.com/larissa.lima"
+    }
+  },
+  {
+    "id": 14,
+    "nome": "Isabela Alves",
+    "foto": "https://randomuser.me/api/portraits/women/82.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional da área de Design, atuando como designer ui/ux com foco em inovação e colaboração.",
+    "biografia": "Isabela é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer ui/ux, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1990,
+    "idade": 35,
+    "tempoExperiencia": "8 anos de experiência na área de design.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer UI/UX",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/isabela-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "isabela.alves@gmail.com",
+      "telefone": "(11) 92607-7104",
+      "linkedin": "https://linkedin.com/in/isabela-alves",
+      "github": "https://github.com/isabela-alves",
+      "instagram": "https://instagram.com/isabela.alves"
+    }
+  },
+  {
+    "id": 15,
+    "nome": "Beatriz Fernandes",
+    "foto": "https://randomuser.me/api/portraits/women/61.jpg",
+    "cargo": "Designer UI/UX",
+    "resumo": "Profissional da área de Design, atuando como designer ui/ux com foco em inovação e colaboração.",
+    "biografia": "Beatriz é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer ui/ux, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "6 anos de experiência na área de design.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer UI/UX",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/beatriz-fernandes",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "beatriz.fernandes@hotmail.com",
+      "telefone": "(21) 99104-1050",
+      "linkedin": "https://linkedin.com/in/beatriz-fernandes",
+      "github": "https://github.com/beatriz-fernandes",
+      "instagram": "https://instagram.com/beatriz.fernandes"
+    }
+  },
+  {
+    "id": 16,
+    "nome": "Rafael Castro",
+    "foto": "https://randomuser.me/api/portraits/men/48.jpg",
+    "cargo": "UX Writer",
+    "resumo": "Profissional da área de Design, atuando como ux writer com foco em inovação e colaboração.",
+    "biografia": "Rafael é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como ux writer, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1997,
+    "idade": 28,
+    "tempoExperiencia": "5 anos de experiência na área de design.",
+    "localizacao": "Campinas/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "UX Writer",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/rafael-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "rafael.castro@hotmail.com",
+      "telefone": "(21) 97049-5423",
+      "linkedin": "https://linkedin.com/in/rafael-castro",
+      "github": "https://github.com/rafael-castro",
+      "instagram": "https://instagram.com/rafael.castro"
+    }
+  },
+  {
+    "id": 17,
+    "nome": "Elisa Rocha",
+    "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional da área de Design, atuando como designer gráfico com foco em inovação e colaboração.",
+    "biografia": "Elisa é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer gráfico, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2002,
+    "idade": 23,
+    "tempoExperiencia": "8 anos de experiência na área de design.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer Gráfico",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/elisa-rocha",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "elisa.rocha@outlook.com",
+      "telefone": "(51) 96688-2836",
+      "linkedin": "https://linkedin.com/in/elisa-rocha",
+      "github": "https://github.com/elisa-rocha",
+      "instagram": "https://instagram.com/elisa.rocha"
+    }
+  },
+  {
+    "id": 18,
+    "nome": "Bruno Alves",
+    "foto": "https://randomuser.me/api/portraits/men/47.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional da área de Design, atuando como designer gráfico com foco em inovação e colaboração.",
+    "biografia": "Bruno é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer gráfico, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "6 anos de experiência na área de design.",
+    "localizacao": "Campinas/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer Gráfico",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/bruno-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "bruno.alves@gmail.com",
+      "telefone": "(21) 93990-8939",
+      "linkedin": "https://linkedin.com/in/bruno-alves",
+      "github": "https://github.com/bruno-alves",
+      "instagram": "https://instagram.com/bruno.alves"
+    }
+  },
+  {
+    "id": 19,
+    "nome": "Bruno Martins",
+    "foto": "https://randomuser.me/api/portraits/men/32.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional da área de Design, atuando como designer gráfico com foco em inovação e colaboração.",
+    "biografia": "Bruno é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer gráfico, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2000,
+    "idade": 25,
+    "tempoExperiencia": "3 anos de experiência na área de design.",
+    "localizacao": "Campinas/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer Gráfico",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/bruno-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "bruno.martins@hotmail.com",
+      "telefone": "(41) 92902-1847",
+      "linkedin": "https://linkedin.com/in/bruno-martins",
+      "github": "https://github.com/bruno-martins",
+      "instagram": "https://instagram.com/bruno.martins"
+    }
+  },
+  {
+    "id": 20,
+    "nome": "Lucas Martins",
+    "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+    "cargo": "Designer de Interação",
+    "resumo": "Profissional da área de Design, atuando como designer de interação com foco em inovação e colaboração.",
+    "biografia": "Lucas é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer de interação, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "7 anos de experiência na área de design.",
+    "localizacao": "Campinas/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer de Interação",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/lucas-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "lucas.martins@hotmail.com",
+      "telefone": "(31) 97963-6451",
+      "linkedin": "https://linkedin.com/in/lucas-martins",
+      "github": "https://github.com/lucas-martins",
+      "instagram": "https://instagram.com/lucas.martins"
+    }
+  },
+  {
+    "id": 21,
+    "nome": "Beatriz Martins",
+    "foto": "https://randomuser.me/api/portraits/women/22.jpg",
+    "cargo": "Product Designer",
+    "resumo": "Profissional da área de Design, atuando como product designer com foco em inovação e colaboração.",
+    "biografia": "Beatriz é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como product designer, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1995,
+    "idade": 30,
+    "tempoExperiencia": "1 anos de experiência na área de design.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Product Designer",
+        "inicio": "2021-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/beatriz-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "beatriz.martins@hotmail.com",
+      "telefone": "(21) 92370-1398",
+      "linkedin": "https://linkedin.com/in/beatriz-martins",
+      "github": "https://github.com/beatriz-martins",
+      "instagram": "https://instagram.com/beatriz.martins"
+    }
+  },
+  {
+    "id": 22,
+    "nome": "João Lima",
+    "foto": "https://randomuser.me/api/portraits/men/84.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional da área de Design, atuando como designer gráfico com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer gráfico, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2002,
+    "idade": 23,
+    "tempoExperiencia": "3 anos de experiência na área de design.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer Gráfico",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/joão-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.lima@outlook.com",
+      "telefone": "(31) 91362-5577",
+      "linkedin": "https://linkedin.com/in/joão-lima",
+      "github": "https://github.com/joão-lima",
+      "instagram": "https://instagram.com/joão.lima"
+    }
+  },
+  {
+    "id": 23,
+    "nome": "Fernanda Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/women/51.jpg",
+    "cargo": "Designer Gráfico",
+    "resumo": "Profissional da área de Design, atuando como designer gráfico com foco em inovação e colaboração.",
+    "biografia": "Fernanda é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como designer gráfico, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1995,
+    "idade": 30,
+    "tempoExperiencia": "1 anos de experiência na área de design.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Designer Gráfico",
+        "inicio": "2021-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/fernanda-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "fernanda.ribeiro@outlook.com",
+      "telefone": "(11) 99693-9462",
+      "linkedin": "https://linkedin.com/in/fernanda-ribeiro",
+      "github": "https://github.com/fernanda-ribeiro",
+      "instagram": "https://instagram.com/fernanda.ribeiro"
+    }
+  },
+  {
+    "id": 24,
+    "nome": "Diego Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/95.jpg",
+    "cargo": "UX Writer",
+    "resumo": "Profissional da área de Design, atuando como ux writer com foco em inovação e colaboração.",
+    "biografia": "Diego é um(a) profissional apaixonado(a) por design e por gerar impacto positivo através da tecnologia. Atua como ux writer, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "3 anos de experiência na área de design.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Figma",
+      "UX Research",
+      "Illustrator",
+      "Photoshop"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "UX Writer",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de design."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Design Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Design Futuro",
+        "link": "https://github.com/diego-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em design."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Design – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "diego.ribeiro@hotmail.com",
+      "telefone": "(51) 93869-3455",
+      "linkedin": "https://linkedin.com/in/diego-ribeiro",
+      "github": "https://github.com/diego-ribeiro",
+      "instagram": "https://instagram.com/diego.ribeiro"
+    }
+  },
+  {
+    "id": 25,
+    "nome": "Lucas Castro",
+    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Lucas é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1988,
+    "idade": 37,
+    "tempoExperiencia": "2 anos de experiência na área de dados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/lucas-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "lucas.castro@hotmail.com",
+      "telefone": "(41) 94725-9705",
+      "linkedin": "https://linkedin.com/in/lucas-castro",
+      "github": "https://github.com/lucas-castro",
+      "instagram": "https://instagram.com/lucas.castro"
+    }
+  },
+  {
+    "id": 26,
+    "nome": "Henrique Fernandes",
+    "foto": "https://randomuser.me/api/portraits/men/40.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional da área de Dados, atuando como cientista de dados com foco em inovação e colaboração.",
+    "biografia": "Henrique é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como cientista de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "8 anos de experiência na área de dados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Cientista de Dados",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/henrique-fernandes",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "henrique.fernandes@outlook.com",
+      "telefone": "(21) 96078-2547",
+      "linkedin": "https://linkedin.com/in/henrique-fernandes",
+      "github": "https://github.com/henrique-fernandes",
+      "instagram": "https://instagram.com/henrique.fernandes"
+    }
+  },
+  {
+    "id": 27,
+    "nome": "Felipe Castro",
+    "foto": "https://randomuser.me/api/portraits/men/96.jpg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional da área de Dados, atuando como analista de dados com foco em inovação e colaboração.",
+    "biografia": "Felipe é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "7 anos de experiência na área de dados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de Dados",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/felipe-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "felipe.castro@hotmail.com",
+      "telefone": "(41) 93466-9018",
+      "linkedin": "https://linkedin.com/in/felipe-castro",
+      "github": "https://github.com/felipe-castro",
+      "instagram": "https://instagram.com/felipe.castro"
+    }
+  },
+  {
+    "id": 28,
+    "nome": "Giovana Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Giovana é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "6 anos de experiência na área de dados.",
+    "localizacao": "Campinas/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/giovana-oliveira",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "giovana.oliveira@gmail.com",
+      "telefone": "(31) 92057-6571",
+      "linkedin": "https://linkedin.com/in/giovana-oliveira",
+      "github": "https://github.com/giovana-oliveira",
+      "instagram": "https://instagram.com/giovana.oliveira"
+    }
+  },
+  {
+    "id": 29,
+    "nome": "Fernanda Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/women/64.jpg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional da área de Dados, atuando como analista de dados com foco em inovação e colaboração.",
+    "biografia": "Fernanda é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1991,
+    "idade": 34,
+    "tempoExperiencia": "5 anos de experiência na área de dados.",
+    "localizacao": "Campinas/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de Dados",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/fernanda-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "fernanda.ribeiro@hotmail.com",
+      "telefone": "(21) 95911-5865",
+      "linkedin": "https://linkedin.com/in/fernanda-ribeiro",
+      "github": "https://github.com/fernanda-ribeiro",
+      "instagram": "https://instagram.com/fernanda.ribeiro"
+    }
+  },
+  {
+    "id": 30,
+    "nome": "Beatriz Castro",
+    "foto": "https://randomuser.me/api/portraits/women/97.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Beatriz é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2001,
+    "idade": 24,
+    "tempoExperiencia": "6 anos de experiência na área de dados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/beatriz-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "beatriz.castro@outlook.com",
+      "telefone": "(51) 93551-6132",
+      "linkedin": "https://linkedin.com/in/beatriz-castro",
+      "github": "https://github.com/beatriz-castro",
+      "instagram": "https://instagram.com/beatriz.castro"
+    }
+  },
+  {
+    "id": 31,
+    "nome": "Isabela Moura",
+    "foto": "https://randomuser.me/api/portraits/women/14.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Isabela é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "4 anos de experiência na área de dados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/isabela-moura",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "isabela.moura@outlook.com",
+      "telefone": "(11) 94343-4363",
+      "linkedin": "https://linkedin.com/in/isabela-moura",
+      "github": "https://github.com/isabela-moura",
+      "instagram": "https://instagram.com/isabela.moura"
+    }
+  },
+  {
+    "id": 32,
+    "nome": "Felipe Castro",
+    "foto": "https://randomuser.me/api/portraits/men/60.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Felipe é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "7 anos de experiência na área de dados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/felipe-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "felipe.castro@hotmail.com",
+      "telefone": "(11) 97026-6759",
+      "linkedin": "https://linkedin.com/in/felipe-castro",
+      "github": "https://github.com/felipe-castro",
+      "instagram": "https://instagram.com/felipe.castro"
+    }
+  },
+  {
+    "id": 33,
+    "nome": "Ana Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/69.jpg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional da área de Dados, atuando como analista de dados com foco em inovação e colaboração.",
+    "biografia": "Ana é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "7 anos de experiência na área de dados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de Dados",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/ana-oliveira",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "ana.oliveira@hotmail.com",
+      "telefone": "(21) 92662-8036",
+      "linkedin": "https://linkedin.com/in/ana-oliveira",
+      "github": "https://github.com/ana-oliveira",
+      "instagram": "https://instagram.com/ana.oliveira"
+    }
+  },
+  {
+    "id": 34,
+    "nome": "Henrique Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/18.jpg",
+    "cargo": "Analista de BI",
+    "resumo": "Profissional da área de Dados, atuando como analista de bi com foco em inovação e colaboração.",
+    "biografia": "Henrique é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de bi, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "5 anos de experiência na área de dados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de BI",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/henrique-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "henrique.ribeiro@gmail.com",
+      "telefone": "(21) 91527-1386",
+      "linkedin": "https://linkedin.com/in/henrique-ribeiro",
+      "github": "https://github.com/henrique-ribeiro",
+      "instagram": "https://instagram.com/henrique.ribeiro"
+    }
+  },
+  {
+    "id": 35,
+    "nome": "Felipe Alves",
+    "foto": "https://randomuser.me/api/portraits/men/55.jpg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional da área de Dados, atuando como analista de dados com foco em inovação e colaboração.",
+    "biografia": "Felipe é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como analista de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "5 anos de experiência na área de dados.",
+    "localizacao": "Campinas/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de Dados",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/felipe-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "felipe.alves@outlook.com",
+      "telefone": "(31) 96061-6058",
+      "linkedin": "https://linkedin.com/in/felipe-alves",
+      "github": "https://github.com/felipe-alves",
+      "instagram": "https://instagram.com/felipe.alves"
+    }
+  },
+  {
+    "id": 36,
+    "nome": "Bruno Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/32.jpg",
+    "cargo": "Engenheiro de Dados",
+    "resumo": "Profissional da área de Dados, atuando como engenheiro de dados com foco em inovação e colaboração.",
+    "biografia": "Bruno é um(a) profissional apaixonado(a) por dados e por gerar impacto positivo através da tecnologia. Atua como engenheiro de dados, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2001,
+    "idade": 24,
+    "tempoExperiencia": "7 anos de experiência na área de dados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Pandas"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Engenheiro de Dados",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de dados."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Dados Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Dados Futuro",
+        "link": "https://github.com/bruno-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em dados."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Dados – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "bruno.ribeiro@gmail.com",
+      "telefone": "(31) 92835-7458",
+      "linkedin": "https://linkedin.com/in/bruno-ribeiro",
+      "github": "https://github.com/bruno-ribeiro",
+      "instagram": "https://instagram.com/bruno.ribeiro"
+    }
+  },
+  {
+    "id": 37,
+    "nome": "Giovana Castro",
+    "foto": "https://randomuser.me/api/portraits/women/69.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "Giovana é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "4 anos de experiência na área de marketing.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/giovana-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "giovana.castro@hotmail.com",
+      "telefone": "(21) 96155-5191",
+      "linkedin": "https://linkedin.com/in/giovana-castro",
+      "github": "https://github.com/giovana-castro",
+      "instagram": "https://instagram.com/giovana.castro"
+    }
+  },
+  {
+    "id": 38,
+    "nome": "Rafael Moura",
+    "foto": "https://randomuser.me/api/portraits/men/95.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "Rafael é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "5 anos de experiência na área de marketing.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/rafael-moura",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "rafael.moura@outlook.com",
+      "telefone": "(51) 96285-5062",
+      "linkedin": "https://linkedin.com/in/rafael-moura",
+      "github": "https://github.com/rafael-moura",
+      "instagram": "https://instagram.com/rafael.moura"
+    }
+  },
+  {
+    "id": 39,
+    "nome": "Henrique Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/men/91.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "Henrique é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "8 anos de experiência na área de marketing.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/henrique-ribeiro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "henrique.ribeiro@hotmail.com",
+      "telefone": "(51) 99906-5952",
+      "linkedin": "https://linkedin.com/in/henrique-ribeiro",
+      "github": "https://github.com/henrique-ribeiro",
+      "instagram": "https://instagram.com/henrique.ribeiro"
+    }
+  },
+  {
+    "id": 40,
+    "nome": "Marina Martins",
+    "foto": "https://randomuser.me/api/portraits/women/22.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional da área de Marketing, atuando como social media com foco em inovação e colaboração.",
+    "biografia": "Marina é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como social media, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "1 anos de experiência na área de marketing.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Social Media",
+        "inicio": "2021-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/marina-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "marina.martins@hotmail.com",
+      "telefone": "(21) 98021-1338",
+      "linkedin": "https://linkedin.com/in/marina-martins",
+      "github": "https://github.com/marina-martins",
+      "instagram": "https://instagram.com/marina.martins"
+    }
+  },
+  {
+    "id": 41,
+    "nome": "João Oliveira",
+    "foto": "https://randomuser.me/api/portraits/men/9.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1991,
+    "idade": 34,
+    "tempoExperiencia": "4 anos de experiência na área de marketing.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/joão-oliveira",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.oliveira@hotmail.com",
+      "telefone": "(11) 92393-9617",
+      "linkedin": "https://linkedin.com/in/joão-oliveira",
+      "github": "https://github.com/joão-oliveira",
+      "instagram": "https://instagram.com/joão.oliveira"
+    }
+  },
+  {
+    "id": 42,
+    "nome": "Eduardo Oliveira",
+    "foto": "https://randomuser.me/api/portraits/men/62.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "Eduardo é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "6 anos de experiência na área de marketing.",
+    "localizacao": "Campinas/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/eduardo-oliveira",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "eduardo.oliveira@outlook.com",
+      "telefone": "(41) 99663-4587",
+      "linkedin": "https://linkedin.com/in/eduardo-oliveira",
+      "github": "https://github.com/eduardo-oliveira",
+      "instagram": "https://instagram.com/eduardo.oliveira"
+    }
+  },
+  {
+    "id": 43,
+    "nome": "Marcelo Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+    "cargo": "Estrategista de SEO",
+    "resumo": "Profissional da área de Marketing, atuando como estrategista de seo com foco em inovação e colaboração.",
+    "biografia": "Marcelo é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como estrategista de seo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "6 anos de experiência na área de marketing.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Estrategista de SEO",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/marcelo-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "marcelo.freitas@outlook.com",
+      "telefone": "(21) 96162-6701",
+      "linkedin": "https://linkedin.com/in/marcelo-freitas",
+      "github": "https://github.com/marcelo-freitas",
+      "instagram": "https://instagram.com/marcelo.freitas"
+    }
+  },
+  {
+    "id": 44,
+    "nome": "João Martins",
+    "foto": "https://randomuser.me/api/portraits/men/69.jpg",
+    "cargo": "Analista de Marketing Digital",
+    "resumo": "Profissional da área de Marketing, atuando como analista de marketing digital com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como analista de marketing digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "8 anos de experiência na área de marketing.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Analista de Marketing Digital",
+        "inicio": "2014-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/joão-martins",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.martins@outlook.com",
+      "telefone": "(41) 93874-6644",
+      "linkedin": "https://linkedin.com/in/joão-martins",
+      "github": "https://github.com/joão-martins",
+      "instagram": "https://instagram.com/joão.martins"
+    }
+  },
+  {
+    "id": 45,
+    "nome": "Elisa Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+    "cargo": "Estrategista de SEO",
+    "resumo": "Profissional da área de Marketing, atuando como estrategista de seo com foco em inovação e colaboração.",
+    "biografia": "Elisa é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como estrategista de seo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2001,
+    "idade": 24,
+    "tempoExperiencia": "2 anos de experiência na área de marketing.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Estrategista de SEO",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/elisa-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "elisa.freitas@outlook.com",
+      "telefone": "(51) 92705-2241",
+      "linkedin": "https://linkedin.com/in/elisa-freitas",
+      "github": "https://github.com/elisa-freitas",
+      "instagram": "https://instagram.com/elisa.freitas"
+    }
+  },
+  {
+    "id": 46,
+    "nome": "Helena Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/47.jpg",
+    "cargo": "Gestor de Conteúdo",
+    "resumo": "Profissional da área de Marketing, atuando como gestor de conteúdo com foco em inovação e colaboração.",
+    "biografia": "Helena é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como gestor de conteúdo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1995,
+    "idade": 30,
+    "tempoExperiencia": "5 anos de experiência na área de marketing.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Gestor de Conteúdo",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/helena-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "helena.freitas@hotmail.com",
+      "telefone": "(11) 99889-8463",
+      "linkedin": "https://linkedin.com/in/helena-freitas",
+      "github": "https://github.com/helena-freitas",
+      "instagram": "https://instagram.com/helena.freitas"
+    }
+  },
+  {
+    "id": 47,
+    "nome": "Lucas Alves",
+    "foto": "https://randomuser.me/api/portraits/men/36.jpg",
+    "cargo": "Social Media",
+    "resumo": "Profissional da área de Marketing, atuando como social media com foco em inovação e colaboração.",
+    "biografia": "Lucas é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como social media, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2001,
+    "idade": 24,
+    "tempoExperiencia": "3 anos de experiência na área de marketing.",
+    "localizacao": "Campinas/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Social Media",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/lucas-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "lucas.alves@outlook.com",
+      "telefone": "(51) 99905-7612",
+      "linkedin": "https://linkedin.com/in/lucas-alves",
+      "github": "https://github.com/lucas-alves",
+      "instagram": "https://instagram.com/lucas.alves"
+    }
+  },
+  {
+    "id": 48,
+    "nome": "Marina Souza",
+    "foto": "https://randomuser.me/api/portraits/women/42.jpg",
+    "cargo": "Estrategista de SEO",
+    "resumo": "Profissional da área de Marketing, atuando como estrategista de seo com foco em inovação e colaboração.",
+    "biografia": "Marina é um(a) profissional apaixonado(a) por marketing e por gerar impacto positivo através da tecnologia. Atua como estrategista de seo, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "7 anos de experiência na área de marketing.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Analytics"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Estrategista de SEO",
+        "inicio": "2015-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de marketing."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Marketing Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Marketing Futuro",
+        "link": "https://github.com/marina-souza",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em marketing."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Marketing – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "marina.souza@gmail.com",
+      "telefone": "(21) 92486-8829",
+      "linkedin": "https://linkedin.com/in/marina-souza",
+      "github": "https://github.com/marina-souza",
+      "instagram": "https://instagram.com/marina.souza"
+    }
+  },
+  {
+    "id": 49,
+    "nome": "Marcelo Castro",
+    "foto": "https://randomuser.me/api/portraits/men/89.jpg",
+    "cargo": "Psicóloga Organizacional",
+    "resumo": "Profissional da área de Saúde, atuando como psicóloga organizacional com foco em inovação e colaboração.",
+    "biografia": "Marcelo é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como psicóloga organizacional, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1995,
+    "idade": 30,
+    "tempoExperiencia": "4 anos de experiência na área de saúde.",
+    "localizacao": "Curitiba/PR",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Psicóloga Organizacional",
+        "inicio": "2018-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/marcelo-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "marcelo.castro@outlook.com",
+      "telefone": "(41) 92746-7008",
+      "linkedin": "https://linkedin.com/in/marcelo-castro",
+      "github": "https://github.com/marcelo-castro",
+      "instagram": "https://instagram.com/marcelo.castro"
+    }
+  },
+  {
+    "id": 50,
+    "nome": "Fernanda Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/41.jpg",
+    "cargo": "Fisioterapeuta",
+    "resumo": "Profissional da área de Saúde, atuando como fisioterapeuta com foco em inovação e colaboração.",
+    "biografia": "Fernanda é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como fisioterapeuta, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "5 anos de experiência na área de saúde.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Fisioterapeuta",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/fernanda-oliveira",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "fernanda.oliveira@gmail.com",
+      "telefone": "(51) 94918-7486",
+      "linkedin": "https://linkedin.com/in/fernanda-oliveira",
+      "github": "https://github.com/fernanda-oliveira",
+      "instagram": "https://instagram.com/fernanda.oliveira"
+    }
+  },
+  {
+    "id": 51,
+    "nome": "Marcelo Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/83.jpg",
+    "cargo": "Médica Especialista em Saúde Digital",
+    "resumo": "Profissional da área de Saúde, atuando como médica especialista em saúde digital com foco em inovação e colaboração.",
+    "biografia": "Marcelo é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como médica especialista em saúde digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1990,
+    "idade": 35,
+    "tempoExperiencia": "5 anos de experiência na área de saúde.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Médica Especialista em Saúde Digital",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/marcelo-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "marcelo.freitas@outlook.com",
+      "telefone": "(41) 97096-3081",
+      "linkedin": "https://linkedin.com/in/marcelo-freitas",
+      "github": "https://github.com/marcelo-freitas",
+      "instagram": "https://instagram.com/marcelo.freitas"
+    }
+  },
+  {
+    "id": 52,
+    "nome": "Beatriz Freitas",
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg",
+    "cargo": "Médica Especialista em Saúde Digital",
+    "resumo": "Profissional da área de Saúde, atuando como médica especialista em saúde digital com foco em inovação e colaboração.",
+    "biografia": "Beatriz é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como médica especialista em saúde digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1997,
+    "idade": 28,
+    "tempoExperiencia": "6 anos de experiência na área de saúde.",
+    "localizacao": "Campinas/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Médica Especialista em Saúde Digital",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/beatriz-freitas",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "beatriz.freitas@outlook.com",
+      "telefone": "(31) 92127-3307",
+      "linkedin": "https://linkedin.com/in/beatriz-freitas",
+      "github": "https://github.com/beatriz-freitas",
+      "instagram": "https://instagram.com/beatriz.freitas"
+    }
+  },
+  {
+    "id": 53,
+    "nome": "João Souza",
+    "foto": "https://randomuser.me/api/portraits/men/43.jpg",
+    "cargo": "Médica Especialista em Saúde Digital",
+    "resumo": "Profissional da área de Saúde, atuando como médica especialista em saúde digital com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como médica especialista em saúde digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2000,
+    "idade": 25,
+    "tempoExperiencia": "2 anos de experiência na área de saúde.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Médica Especialista em Saúde Digital",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/joão-souza",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.souza@hotmail.com",
+      "telefone": "(51) 91347-9645",
+      "linkedin": "https://linkedin.com/in/joão-souza",
+      "github": "https://github.com/joão-souza",
+      "instagram": "https://instagram.com/joão.souza"
+    }
+  },
+  {
+    "id": 54,
+    "nome": "Carlos Castro",
+    "foto": "https://randomuser.me/api/portraits/men/63.jpg",
+    "cargo": "Enfermeira Coordenadora",
+    "resumo": "Profissional da área de Saúde, atuando como enfermeira coordenadora com foco em inovação e colaboração.",
+    "biografia": "Carlos é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como enfermeira coordenadora, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1996,
+    "idade": 29,
+    "tempoExperiencia": "6 anos de experiência na área de saúde.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Enfermeira Coordenadora",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/carlos-castro",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "carlos.castro@gmail.com",
+      "telefone": "(41) 96247-1005",
+      "linkedin": "https://linkedin.com/in/carlos-castro",
+      "github": "https://github.com/carlos-castro",
+      "instagram": "https://instagram.com/carlos.castro"
+    }
+  },
+  {
+    "id": 55,
+    "nome": "Eduardo Lima",
+    "foto": "https://randomuser.me/api/portraits/men/89.jpg",
+    "cargo": "Médica Especialista em Saúde Digital",
+    "resumo": "Profissional da área de Saúde, atuando como médica especialista em saúde digital com foco em inovação e colaboração.",
+    "biografia": "Eduardo é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como médica especialista em saúde digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 2002,
+    "idade": 23,
+    "tempoExperiencia": "6 anos de experiência na área de saúde.",
+    "localizacao": "Campinas/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Médica Especialista em Saúde Digital",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/eduardo-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "eduardo.lima@outlook.com",
+      "telefone": "(21) 96284-3073",
+      "linkedin": "https://linkedin.com/in/eduardo-lima",
+      "github": "https://github.com/eduardo-lima",
+      "instagram": "https://instagram.com/eduardo.lima"
+    }
+  },
+  {
+    "id": 56,
+    "nome": "Camila Moura",
+    "foto": "https://randomuser.me/api/portraits/women/58.jpg",
+    "cargo": "Fisioterapeuta",
+    "resumo": "Profissional da área de Saúde, atuando como fisioterapeuta com foco em inovação e colaboração.",
+    "biografia": "Camila é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como fisioterapeuta, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1992,
+    "idade": 33,
+    "tempoExperiencia": "5 anos de experiência na área de saúde.",
+    "localizacao": "São Paulo/SP",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Fisioterapeuta",
+        "inicio": "2017-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/camila-moura",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "camila.moura@gmail.com",
+      "telefone": "(51) 96318-5879",
+      "linkedin": "https://linkedin.com/in/camila-moura",
+      "github": "https://github.com/camila-moura",
+      "instagram": "https://instagram.com/camila.moura"
+    }
+  },
+  {
+    "id": 57,
+    "nome": "Giovana Fernandes",
+    "foto": "https://randomuser.me/api/portraits/women/72.jpg",
+    "cargo": "Médica Especialista em Saúde Digital",
+    "resumo": "Profissional da área de Saúde, atuando como médica especialista em saúde digital com foco em inovação e colaboração.",
+    "biografia": "Giovana é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como médica especialista em saúde digital, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1989,
+    "idade": 36,
+    "tempoExperiencia": "3 anos de experiência na área de saúde.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Médica Especialista em Saúde Digital",
+        "inicio": "2019-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/giovana-fernandes",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "giovana.fernandes@hotmail.com",
+      "telefone": "(51) 95473-5660",
+      "linkedin": "https://linkedin.com/in/giovana-fernandes",
+      "github": "https://github.com/giovana-fernandes",
+      "instagram": "https://instagram.com/giovana.fernandes"
+    }
+  },
+  {
+    "id": 58,
+    "nome": "Elisa Moura",
+    "foto": "https://randomuser.me/api/portraits/women/66.jpg",
+    "cargo": "Fisioterapeuta",
+    "resumo": "Profissional da área de Saúde, atuando como fisioterapeuta com foco em inovação e colaboração.",
+    "biografia": "Elisa é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como fisioterapeuta, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1994,
+    "idade": 31,
+    "tempoExperiencia": "6 anos de experiência na área de saúde.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Fisioterapeuta",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/elisa-moura",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "elisa.moura@gmail.com",
+      "telefone": "(41) 92794-3203",
+      "linkedin": "https://linkedin.com/in/elisa-moura",
+      "github": "https://github.com/elisa-moura",
+      "instagram": "https://instagram.com/elisa.moura"
+    }
+  },
+  {
+    "id": 59,
+    "nome": "Henrique Lima",
+    "foto": "https://randomuser.me/api/portraits/men/70.jpg",
+    "cargo": "Enfermeira Coordenadora",
+    "resumo": "Profissional da área de Saúde, atuando como enfermeira coordenadora com foco em inovação e colaboração.",
+    "biografia": "Henrique é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como enfermeira coordenadora, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1993,
+    "idade": 32,
+    "tempoExperiencia": "2 anos de experiência na área de saúde.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Enfermeira Coordenadora",
+        "inicio": "2020-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/henrique-lima",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "henrique.lima@hotmail.com",
+      "telefone": "(51) 94932-3298",
+      "linkedin": "https://linkedin.com/in/henrique-lima",
+      "github": "https://github.com/henrique-lima",
+      "instagram": "https://instagram.com/henrique.lima"
+    }
+  },
+  {
+    "id": 60,
+    "nome": "João Alves",
+    "foto": "https://randomuser.me/api/portraits/men/33.jpg",
+    "cargo": "Fisioterapeuta",
+    "resumo": "Profissional da área de Saúde, atuando como fisioterapeuta com foco em inovação e colaboração.",
+    "biografia": "João é um(a) profissional apaixonado(a) por saúde e por gerar impacto positivo através da tecnologia. Atua como fisioterapeuta, sempre buscando aprimorar suas habilidades e colaborar com equipes diversas para alcançar resultados inovadores.",
+    "anoNascimento": 1990,
+    "idade": 35,
+    "tempoExperiencia": "6 anos de experiência na área de saúde.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Telemedicina",
+      "Excel",
+      "Power BI",
+      "Gestão Hospitalar"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Proatividade",
+      "Organização"
+    ],
+    "experiencias": [
+      {
+        "empresa": "InovaTech",
+        "cargo": "Fisioterapeuta",
+        "inicio": "2016-01",
+        "fim": "2024-11",
+        "descricao": "Atuação em projetos estratégicos e soluções voltadas à área de saúde."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Saúde Aplicada",
+        "instituicao": "FIAP",
+        "ano": 2024
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Saúde Futuro",
+        "link": "https://github.com/joão-alves",
+        "descricao": "Desenvolvimento de solução prática para desafios do futuro do trabalho em saúde."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Avançada em Saúde – FIAP"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Inovação",
+      "Sustentabilidade",
+      "Futuro do Trabalho"
+    ],
+    "contatos": {
+      "email": "joão.alves@outlook.com",
+      "telefone": "(41) 93318-2039",
+      "linkedin": "https://linkedin.com/in/joão-alves",
+      "github": "https://github.com/joão-alves",
+      "instagram": "https://instagram.com/joão.alves"
+    }
   }
 ]

@@ -1,11 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>futuro-do-trabalho</title>
+    <title>Futuro do Trabalho</title>
+
+    <!-- Script para aplicar o tema antes do React -->
+    <script>
+      (function () {
+        try {
+          // Lê o tema salvo no localStorage
+          var salvo = localStorage.getItem("tema");
+          // Verifica a preferência do sistema
+          var prefereEscuro = window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches;
+          // Define o tema atual (prioriza o salvo)
+          var tema = salvo || (prefereEscuro ? "dark" : "light");
+          // Adiciona a classe no <html>
+          var root = document.documentElement;
+          root.classList.remove("light", "dark");
+          root.classList.add(tema);
+        } catch (e) {}
+      })();
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
