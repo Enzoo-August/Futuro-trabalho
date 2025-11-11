@@ -1,78 +1,55 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Card from "./components/Card"
 import Modal from "./components/Modal"
-import profissionais from "./data/profissionais.json"
+import profissionaisData from "./data/profissionais.json"
 
 export default function App() {
-  const [selecionado, setSelecionado] = useState(null)
+  const [profissionais, setProfissionais] = useState([])
   const [busca, setBusca] = useState("")
-  const [tema, setTema] = useState(() =>
-    document.documentElement.classList.contains("dark") ? "dark" : "light"
-  )
-
   const [filtroArea, setFiltroArea] = useState("")
-  const [filtroCidade, setFiltroCidade] = useState("")
-  const [filtroTech, setFiltroTech] = useState("")
+  const [filtroStatus, setFiltroStatus] = useState("")
+  const [selecionado, setSelecionado] = useState(null)
+  const [tema, setTema] = useState(localStorage.getItem("tema") || "light")
 
-  // Alternar tema
-  const alternarTema = () => {
-    const novo = tema === "light" ? "dark" : "light"
-    setTema(novo)
-    const root = document.documentElement
-    root.classList.remove("light", "dark")
-    root.classList.add(novo)
-    localStorage.setItem("tema", novo)
-  }
+  useEffect(() => {
+    setProfissionais(profissionaisData)
+  }, [])
 
-  // Filtro combinado: busca + área + cidade + tecnologia
-  const filtrados = profissionais.filter((p) => {
-    const texto = busca.toLowerCase()
-    const matchBusca =
-      p.nome.toLowerCase().includes(texto) ||
-      p.cargo.toLowerCase().includes(texto) ||
-      p.area.toLowerCase().includes(texto)
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", tema === "dark")
+    localStorage.setItem("tema", tema)
+  }, [tema])
 
-    const matchArea = filtroArea ? p.area === filtroArea : true
-    const matchCidade = filtroCidade ? p.localizacao === filtroCidade : true
-    const matchTech = filtroTech
-      ? p.habilidadesTecnicas?.includes(filtroTech)
-      : true
-
-    return matchBusca && matchArea && matchCidade && matchTech
-  })
+  const profissionaisFiltrados = profissionais.filter((p) =>
+    (!filtroArea || p.area === filtroArea) &&
+    (!filtroStatus || p.statusProfissional === filtroStatus) &&
+    (p.nome.toLowerCase().includes(busca.toLowerCase()) ||
+      p.cargo.toLowerCase().includes(busca.toLowerCase()) ||
+      p.area.toLowerCase().includes(busca.toLowerCase()))
+  )
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-zinc-950 text-gray-900 dark:text-gray-50 transition-colors duration-300">
-      {/* HEADER */}
-      <header className="border-b bg-white/70 dark:bg-zinc-900/80 backdrop-blur sticky top-0 z-10 text-gray-900 dark:text-gray-50">
-        <div className="max-w-6xl mx-auto p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-            Futuro do Trabalho<span className="text-gray-900 dark:text-gray-50"> 🌐</span>
-          </h1>
+      <header className="p-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-gray-200 dark:border-zinc-800">
+        <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+          🌐 Futuro do Trabalho
+        </h1>
 
-          <div className="flex items-center gap-2">
-            <input
-              type="text"
-              placeholder="Buscar por nome, cargo ou área..."
-              className="w-full sm:w-80 border border-gray-300 dark:border-zinc-700 rounded-xl px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-zinc-800 text-gray-900 dark:text-gray-100"
-              value={busca}
-              onChange={(e) => setBusca(e.target.value)}
-            />
-            <button
-              onClick={alternarTema}
-              className="border rounded-xl px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-zinc-800 dark:border-zinc-700 text-gray-900 dark:text-gray-50 transition"
-              title="Alternar tema"
-            >
-              {tema === "light" ? "🌙" : "☀️"}
-            </button>
-          </div>
-        </div>
+        <div className="flex flex-wrap items-center gap-3">
+          {/* Campo de busca */}
+          <input
+            type="text"
+            placeholder="Buscar por nome, cargo ou área..."
+            value={busca}
+            onChange={(e) => setBusca(e.target.value)}
+            className="border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm bg-white dark:bg-zinc-900 focus:ring-2 focus:ring-blue-500"
+          />
 
-        {/* FILTROS */}
-        <div className="max-w-6xl mx-auto px-4 pb-3 flex flex-wrap gap-2">
+          {/* Filtro por área */}
           <select
+            value={filtroArea}
             onChange={(e) => setFiltroArea(e.target.value)}
-            className="border dark:border-zinc-700 rounded-lg px-3 py-1.5 bg-white dark:bg-zinc-800 text-sm text-gray-900 dark:text-gray-100"
+            className="border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm bg-white dark:bg-zinc-900"
           >
             <option value="">Todas as áreas</option>
             <option value="Tecnologia">Tecnologia</option>
@@ -82,64 +59,55 @@ export default function App() {
             <option value="Saúde">Saúde</option>
           </select>
 
+          {/* Filtro por status profissional */}
           <select
-            onChange={(e) => setFiltroCidade(e.target.value)}
-            className="border dark:border-zinc-700 rounded-lg px-3 py-1.5 bg-white dark:bg-zinc-800 text-sm text-gray-900 dark:text-gray-100"
+            value={filtroStatus}
+            onChange={(e) => setFiltroStatus(e.target.value)}
+            className="border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm bg-white dark:bg-zinc-900"
           >
-            <option value="">Todas as cidades</option>
-            <option value="São Paulo/SP">São Paulo/SP</option>
-            <option value="Curitiba/PR">Curitiba/PR</option>
-            <option value="Belo Horizonte/MG">Belo Horizonte/MG</option>
-            <option value="Rio de Janeiro/RJ">Rio de Janeiro/RJ</option>
-            <option value="Campinas/SP">Campinas/SP</option>
+            <option value="">Todos os status</option>
+            <option value="Trabalhando na área">Trabalhando na área</option>
+            <option value="Em busca de oportunidades">Em busca de oportunidades</option>
+            <option value="Aberto a propostas">Aberto a propostas</option>
+            <option value="Migrando de área">Migrando de área</option>
           </select>
 
-          <select
-            onChange={(e) => setFiltroTech(e.target.value)}
-            className="border dark:border-zinc-700 rounded-lg px-3 py-1.5 bg-white dark:bg-zinc-800 text-sm text-gray-900 dark:text-gray-100"
+          {/* Botão de alternar tema */}
+          <button
+            onClick={() => setTema(tema === "light" ? "dark" : "light")}
+            className="ml-2 border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-zinc-800 transition"
           >
-            <option value="">Todas as tecnologias</option>
-            <option value="React">React</option>
-            <option value="Node.js">Node.js</option>
-            <option value="Python">Python</option>
-            <option value="SQL">SQL</option>
-            <option value="Figma">Figma</option>
-          </select>
+            {tema === "light" ? "🌙 Modo Escuro" : "☀️ Modo Claro"}
+          </button>
         </div>
       </header>
 
-      {/* GRID DE CARDS */}
-      <main className="max-w-6xl mx-auto p-6 text-gray-900 dark:text-gray-50">
-        {filtrados.length === 0 ? (
-          <p className="text-center text-gray-600 dark:text-gray-400 mt-10">
+      {/* Lista de profissionais */}
+      <main className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        {profissionaisFiltrados.length > 0 ? (
+          profissionaisFiltrados.map((p) => (
+            <Card
+              key={p.id}
+              nome={p.nome}
+              cargo={p.cargo}
+              resumo={p.resumo}
+              foto={p.foto}
+              statusProfissional={p.statusProfissional}
+              onClick={() => setSelecionado(p)}
+            />
+          ))
+        ) : (
+          <p className="col-span-full text-center text-gray-600 dark:text-gray-400">
             Nenhum profissional encontrado 😕
           </p>
-        ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {filtrados.map((p) => (
-              <Card
-                key={p.id}
-                nome={p.nome}
-                cargo={p.cargo}
-                resumo={p.resumo}
-                foto={p.foto}
-                onClick={() => setSelecionado(p)}
-              />
-            ))}
-          </div>
         )}
       </main>
 
-      {/* MODAL */}
-      <Modal
-        aberto={!!selecionado}
-        fechar={() => setSelecionado(null)}
-        profissional={selecionado}
-      />
+      {/* Modal de detalhes */}
+      <Modal aberto={!!selecionado} fechar={() => setSelecionado(null)} profissional={selecionado} />
 
-      {/* FOOTER */}
-      <footer className="border-t text-center text-sm text-gray-600 dark:text-gray-400 py-4">
-        Desenvolvido para a <strong>Global Solution – FIAP 2025</strong>
+      <footer className="text-center p-4 border-t border-gray-200 dark:border-zinc-800 text-sm text-gray-600 dark:text-gray-400">
+        Desenvolvido por Enzo Augusto e equipe — Global Solution FIAP 2025
       </footer>
     </div>
   )
