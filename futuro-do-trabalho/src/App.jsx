@@ -1,46 +1,69 @@
-import { useMemo, useState } from "react";
-import data from "./data/profissionais.json";
-import Header from "./components/Header";
-import ProfessionalCard from "./components/ProfessionalCard";
-import ProfileModal from "./components/ProfileModal";
-import useDarkMode from "./hooks/useDarkMode";
-import { norm } from "./utils/text";
+import { useState } from "react"
+import Card from "./components/Card"
+import Modal from "./components/Modal"
+import profissionais from "./data/profissionais.json"
 
 export default function App() {
-  const { isDark, toggle } = useDarkMode();
-  const [query, setQuery] = useState("");
-  const [selected, setSelected] = useState(null);
+  const [selecionado, setSelecionado] = useState(null)
+  const [busca, setBusca] = useState("")
 
-  const list = useMemo(() => {
-    const q = norm(query);
-    return (data || []).filter((p) => {
-      if (!q) return true;
-      const blob = [
-        p.nome, p.cargo, p.resumo, p.area, p.localizacao,
-        ...(p.habilidadesTecnicas || []),
-        ...(p.softSkills || []),
-      ].map(norm).join(" ");
-      return blob.includes(q);
-    });
-  }, [query]);
+  const filtrados = profissionais.filter((p) =>
+    p.nome.toLowerCase().includes(busca.toLowerCase()) ||
+    p.cargo.toLowerCase().includes(busca.toLowerCase()) ||
+    p.area.toLowerCase().includes(busca.toLowerCase())
+  )
 
   return (
-    <div className="min-h-screen bg-neutral-50 text-neutral-900 dark:bg-zinc-950 dark:text-zinc-50">
-      <Header query={query} setQuery={setQuery} isDark={isDark} onToggleTheme={toggle} />
-
-      <main className="mx-auto max-w-6xl px-4 py-6">
-        <div className="mb-4 text-sm text-zinc-600 dark:text-zinc-300">
-          {list.length} profissionais encontrados
+    <div className="min-h-screen bg-gray-50 dark:bg-zinc-950 text-gray-900 dark:text-gray-50 transition-colors duration-300">
+      {/* HEADER */}
+      <header className="border-b bg-white/70 dark:bg-zinc-900/80 backdrop-blur sticky top-0 z-10">
+        <div className="max-w-6xl mx-auto p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <h1 className="text-2xl font-bold text-blue-600">
+            Futuro do Trabalho<span className="text-gray-900 dark:text-gray-50"> 🌐</span>
+          </h1>
+          <input
+            type="text"
+            placeholder="Buscar por nome, cargo ou área..."
+            className="w-full sm:w-80 border border-gray-300 dark:border-zinc-700 rounded-xl px-4 py-2 text-sm outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-zinc-800"
+            value={busca}
+            onChange={(e) => setBusca(e.target.value)}
+          />
         </div>
+      </header>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {list.map((p) => (
-            <ProfessionalCard key={p.id} p={p} onOpen={setSelected} />
-          ))}
-        </div>
+      {/* GRID */}
+      <main className="max-w-6xl mx-auto p-6">
+        {filtrados.length === 0 ? (
+          <p className="text-center text-gray-600 dark:text-gray-400 mt-10">
+            Nenhum profissional encontrado 😕
+          </p>
+        ) : (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {filtrados.map((p) => (
+              <Card
+                key={p.id}
+                nome={p.nome}
+                cargo={p.cargo}
+                resumo={p.resumo}
+                foto={p.foto}
+                onClick={() => setSelecionado(p)}
+              />
+            ))}
+          </div>
+        )}
       </main>
 
-      <ProfileModal open={!!selected} p={selected} onClose={() => setSelected(null)} />
+      {/* MODAL */}
+      <Modal
+        aberto={!!selecionado}
+        fechar={() => setSelecionado(null)}
+        profissional={selecionado}
+      />
+
+      {/* FOOTER */}
+      <footer className="border-t text-center text-sm text-gray-600 dark:text-gray-400 py-4">
+        Desenvolvido para a <strong>Global Solution – FIAP 2025</strong>
+      </footer>
     </div>
-  );
+  )
 }
