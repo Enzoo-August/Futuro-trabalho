@@ -1,5 +1,13 @@
 @import "tailwindcss";
+@import url("https://fonts.cdnfonts.com/css/metro?styles=33140,33141,33142");
 @custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: "Metro", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color-scheme: light dark;
+}
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
@@ -9,11 +17,17 @@
 .animate-fadeIn {
   animation: fadeIn 0.25s ease-in-out;
 }
+
 body {
   @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300;
 }
 
-html, body {
-  transition: background-color 0.4s, color 0.4s;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Metro", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
+p, span, input, button, select, textarea, a {
+  font-family: "Metro", sans-serif;
+}
