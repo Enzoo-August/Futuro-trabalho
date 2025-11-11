@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "nome": "Ana Souza",
+    "foto": "",
+    "cargo": "Engenheira de Software",
+    "resumo": "Full-stack focada em React e Node.",
+    "localizacao": "São Paulo/SP",
+    "area": "Tecnologia",
+    "habilidadesTecnicas": ["React", "Node.js", "SQL"],
+    "softSkills": ["Comunicação", "Trabalho em equipe"],
+    "experiencias": [
+      { "empresa": "TechOne", "cargo": "Desenvolvedora", "inicio": "2023-02", "fim": "2024-08", "descricao": "Desenvolvimento de SPA em React." }
+    ],
+    "formacao": [
+      { "curso": "Bacharel em Sistemas", "instituicao": "FIAP", "ano": 2023 }
+    ],
+    "projetos": [
+      { "titulo": "Portal de Vagas", "link": "https://exemplo.com", "descricao": "Plataforma de busca de empregos." }
+    ],
+    "certificacoes": ["Scrum Foundation"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["IA ética", "Educação"]
+  },
+  {
+    "id": 2,
+    "nome": "Bruno Lima",
+    "foto": "",
+    "cargo": "Designer UI/UX",
+    "resumo": "Designer com foco em usabilidade e pesquisa.",
+    "localizacao": "Curitiba/PR",
+    "area": "Design",
+    "habilidadesTecnicas": ["Figma", "UX Research", "Design System"],
+    "softSkills": ["Criatividade", "Empatia"],
+    "experiencias": [
+      { "empresa": "StudioX", "cargo": "UI/UX", "inicio": "2022-01", "fim": "2024-06", "descricao": "Design de apps e design system." }
+    ],
+    "formacao": [
+      { "curso": "Design Digital", "instituicao": "UTFPR", "ano": 2022 }
+    ],
+    "projetos": [
+      { "titulo": "Design System Atlas", "link": "https://exemplo.com", "descricao": "Sistema de componentes." }
+    ],
+    "certificacoes": ["NN/g UX Certification"],
+    "idiomas": [{ "idioma": "Espanhol", "nivel": "Intermediário" }],
+    "areaInteresses": ["Acessibilidade", "Educação"]
+  },
+  {
+    "id": 3,
+    "nome": "Carla Ribeiro",
+    "foto": "",
+    "cargo": "Cientista de Dados",
+    "resumo": "Modelagem, dashboards e MLOps.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": ["Python", "Pandas", "Power BI"],
+    "softSkills": ["Resiliência", "Comunicação"],
+    "experiencias": [
+      { "empresa": "DataLab", "cargo": "CD Jr.", "inicio": "2021-03", "fim": "2024-02", "descricao": "ETL e análises exploratórias." }
+    ],
+    "formacao": [
+      { "curso": "MSc Data Science", "instituicao": "PUC Minas", "ano": 2021 }
+    ],
+    "projetos": [
+      { "titulo": "Previsão de Demanda", "link": "https://exemplo.com", "descricao": "Modelos de série temporal." }
+    ],
+    "certificacoes": ["AWS Certified Cloud Practitioner"],
+    "idiomas": [{ "idioma": "Inglês", "nivel": "Avançado" }],
+    "areaInteresses": ["Saúde", "Sustentabilidade"]
+  }
+]
