@@ -15,7 +15,7 @@ export default function Card({ nome, cargo, resumo, foto, statusProfissional, on
         <p className="text-sm text-gray-600 dark:text-gray-400">{cargo}</p>
 
         {statusProfissional && (
-          <p className="text-sm mt-1 text-gray-700 dark:text-gray-300 italic font-medium">
+          <p className="text-sm mt-1 text-gray-700 dark:text-gray-300 italic font-bold">
             {statusProfissional}
           </p>
         )}

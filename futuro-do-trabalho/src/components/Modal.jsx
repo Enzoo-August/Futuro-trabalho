@@ -9,20 +9,20 @@ export default function Modal({ aberto, fechar, profissional }) {
 
   if (!aberto || !profissional) return null
 
-  const recomendar = () => {
+  const handleRecomendar = () => {
     setRecomendado(true)
     setTimeout(() => setRecomendado(false), 2500)
   }
 
-  const enviarMensagem = () => {
+  const handleEnviar = () => {
     if (!mensagem.trim()) {
-      alert("Escreva uma mensagem antes de enviar.")
+      alert("⚠️ Escreva uma mensagem antes de enviar!")
       return
     }
     alert(
-      `Mensagem enviada para ${profissional.nome}!\n\nDe: ${nome || "Anônimo"}\nEmail: ${
-        email || "não informado"
-      }\n\n"${mensagem}"`
+      `✅ Mensagem enviada para ${profissional.nome}!\n\nDe: ${
+        nome || "Anônimo"
+      }\nEmail: ${email || "não informado"}\n\n"${mensagem}"`
     )
     setMensagem("")
     setNome("")
@@ -30,8 +30,8 @@ export default function Modal({ aberto, fechar, profissional }) {
     setMostrarForm(false)
   }
 
-  const Etiqueta = ({ children, className }) => (
-    <span className={`px-3 py-1 rounded-full text-xs font-medium ${className || ""}`}>
+  const Badge = ({ children, className = "" }) => (
+    <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium ${className}`}>
       {children}
     </span>
   )
@@ -40,17 +40,17 @@ export default function Modal({ aberto, fechar, profissional }) {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
       <div className="bg-white dark:bg-zinc-900 rounded-2xl w-full max-w-3xl max-h-[90vh] overflow-y-auto shadow-2xl border dark:border-zinc-800 text-gray-900 dark:text-gray-50">
         <div className="sticky top-0 bg-white dark:bg-zinc-900 z-10 border-b border-gray-200 dark:border-zinc-700 p-4 flex items-center">
-          <h2 className="text-xl font-semibold flex-1">{profissional.nome}</h2>
+          <h2 className="text-xl font-bold flex-1">{profissional.nome}</h2>
           <button
             onClick={fechar}
             className="text-gray-500 hover:text-red-500 text-lg font-semibold"
-            title="Fechar"
+            aria-label="Fechar"
           >
             ✕
           </button>
         </div>
 
-        <div className="p-6 space-y-5">
+        <div className="p-6 space-y-6">
           <div className="flex items-center gap-4">
             <img
               src={profissional.foto}
@@ -62,87 +62,163 @@ export default function Modal({ aberto, fechar, profissional }) {
               <p className="text-sm text-gray-600 dark:text-gray-400">
                 {profissional.area} • {profissional.localizacao}
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">{profissional.statusProfissional}</p>
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                {profissional.statusProfissional}
+              </p>
             </div>
           </div>
 
-          <section>
-            <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Informações Pessoais</h3>
-            <div className="grid sm:grid-cols-2 gap-2 text-sm">
-              <p><strong>Ano de nascimento:</strong> {profissional.anoNascimento}</p>
-              <p><strong>Idade:</strong> {profissional.idade} anos</p>
-              <p><strong>Cidade natal:</strong> {profissional.nascimentoCidade}</p>
-              <p><strong>Tempo de experiência:</strong> {profissional.tempoExperiencia}</p>
-              <p><strong>Status profissional:</strong> {profissional.statusProfissional}</p>
-            </div>
-          </section>
+          <div className="grid sm:grid-cols-2 gap-2 text-sm">
+            <p><span className="font-semibold">Ano de nascimento:</span> {profissional.anoNascimento}</p>
+            <p><span className="font-semibold">Idade:</span> {profissional.idade} anos</p>
+            <p><span className="font-semibold">Cidade natal:</span> {profissional.nascimentoCidade}</p>
+            <p><span className="font-semibold">Tempo de experiência:</span> {profissional.tempoExperiencia}</p>
+          </div>
 
-          <section>
+          <div>
             <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Contatos</h3>
             <div className="grid sm:grid-cols-2 gap-2 text-sm">
-              <p>Email: {profissional.contatos?.email}</p>
-              <p>Telefone: {profissional.contatos?.telefone}</p>
-              <p><a href={profissional.contatos?.linkedin} target="_blank" className="underline text-blue-600 dark:text-blue-400">LinkedIn</a></p>
-              <p><a href={profissional.contatos?.github} target="_blank" className="underline text-blue-600 dark:text-blue-400">GitHub</a></p>
-              <p><a href={profissional.contatos?.instagram} target="_blank" className="underline text-blue-600 dark:text-blue-400">Instagram</a></p>
+              <p>📧 {profissional.contatos?.email}</p>
+              <p>📱 {profissional.contatos?.telefone}</p>
+              <p>💼 <a href={profissional.contatos?.linkedin} target="_blank" className="underline text-blue-600 dark:text-blue-400">LinkedIn</a></p>
+              <p>💻 <a href={profissional.contatos?.github} target="_blank" className="underline text-blue-600 dark:text-blue-400">GitHub</a></p>
+              <p>📸 <a href={profissional.contatos?.instagram} target="_blank" className="underline text-blue-600 dark:text-blue-400">Instagram</a></p>
             </div>
-          </section>
+          </div>
 
           {profissional.biografia && (
-            <section>
-              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-1">Biografia</h3>
-              <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
-                {profissional.biografia}
-              </p>
-            </section>
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Biografia</h3>
+              <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{profissional.biografia}</p>
+            </div>
+          )}
+
+          {profissional.hobbies?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Hobbies</h3>
+              <div className="flex flex-wrap gap-2">
+                {profissional.hobbies.map((h, i) => (
+                  <Badge key={i} className="bg-gray-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200">{h}</Badge>
+                ))}
+              </div>
+            </div>
           )}
 
           {profissional.habilidadesTecnicas?.length > 0 && (
-            <section>
-              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-1">Habilidades Técnicas</h3>
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Habilidades Técnicas</h3>
               <div className="flex flex-wrap gap-2">
-                {profissional.habilidadesTecnicas.map((item, i) => (
-                  <Etiqueta key={i} className="bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">
-                    {item}
-                  </Etiqueta>
+                {profissional.habilidadesTecnicas.map((skill, i) => (
+                  <Badge key={i} className="bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300">{skill}</Badge>
                 ))}
               </div>
-            </section>
+            </div>
           )}
 
           {profissional.softSkills?.length > 0 && (
-            <section>
-              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-1">Soft Skills</h3>
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Soft Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {profissional.softSkills.map((s, i) => (
-                  <Etiqueta key={i} className="bg-gray-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200">{s}</Etiqueta>
+                  <Badge key={i} className="bg-gray-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200">{s}</Badge>
                 ))}
               </div>
-            </section>
+            </div>
+          )}
+
+          {profissional.experiencias?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Experiências</h3>
+              {profissional.experiencias.map((exp, i) => (
+                <div key={i} className="text-sm mb-3">
+                  <p><strong>{exp.cargo}</strong> — {exp.empresa}</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">{exp.inicio} a {exp.fim || "atual"}</p>
+                  <p>{exp.descricao}</p>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {profissional.formacao?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Formação</h3>
+              {profissional.formacao.map((f, i) => (
+                <p key={i} className="text-sm">🎓 {f.curso} — {f.instituicao} ({f.ano})</p>
+              ))}
+            </div>
+          )}
+
+          {profissional.projetos?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Projetos</h3>
+              {profissional.projetos.map((p, i) => (
+                <div key={i} className="text-sm">
+                  <strong>{p.titulo}</strong>{" "}
+                  {p.link && (
+                    <a href={p.link} target="_blank" className="text-blue-600 dark:text-blue-400 underline">(link)</a>
+                  )}
+                  <p>{p.descricao}</p>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {profissional.certificacoes?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Certificações</h3>
+              <ul className="list-disc pl-5 text-sm">
+                {profissional.certificacoes.map((c, i) => <li key={i}>{c}</li>)}
+              </ul>
+            </div>
+          )}
+
+          {profissional.idiomas?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Idiomas</h3>
+              <div className="flex flex-wrap gap-2">
+                {profissional.idiomas.map((lang, i) => (
+                  <Badge key={i} className="bg-gray-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200">
+                    {lang.idioma} ({lang.nivel})
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {profissional.areaInteresses?.length > 0 && (
+            <div>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Áreas de Interesse</h3>
+              <div className="flex flex-wrap gap-2">
+                {profissional.areaInteresses.map((a, i) => (
+                  <Badge key={i} className="bg-gray-100 text-gray-800 dark:bg-zinc-800 dark:text-gray-200">{a}</Badge>
+                ))}
+              </div>
+            </div>
           )}
 
           <div className="pt-4 flex flex-wrap gap-3 border-t border-gray-200 dark:border-zinc-700">
             <button
-              onClick={recomendar}
+              onClick={handleRecomendar}
               className={`text-sm px-4 py-2 rounded-xl transition ${
                 recomendado
                   ? "bg-green-500 text-white animate-pulse"
                   : "bg-blue-600 text-white hover:bg-blue-700"
               }`}
             >
-              {recomendado ? "Recomendado!" : "Indicar profissional"}
+              {recomendado ? "✅ Recomendado!" : "Recomendar"}
             </button>
+
             <button
               onClick={() => setMostrarForm(!mostrarForm)}
               className="border border-gray-300 dark:border-zinc-700 text-sm px-4 py-2 rounded-xl hover:bg-gray-100 dark:hover:bg-zinc-800 transition"
             >
-              {mostrarForm ? "Fechar formulário" : "Mandar mensagem"}
+              {mostrarForm ? "Fechar formulário" : "Enviar mensagem"}
             </button>
           </div>
 
           {mostrarForm && (
             <div className="mt-4 border-t border-gray-200 dark:border-zinc-700 pt-3">
-              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Mensagem</h3>
+              <h3 className="font-semibold text-blue-600 dark:text-blue-400 mb-2">Enviar mensagem</h3>
               <div className="flex flex-col gap-2">
                 <input
                   type="text"
@@ -159,16 +235,16 @@ export default function Modal({ aberto, fechar, profissional }) {
                   className="border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm bg-white dark:bg-zinc-800"
                 />
                 <textarea
-                  placeholder={`Mensagem para ${profissional.nome}...`}
+                  placeholder={`Escreva sua mensagem para ${profissional.nome}...`}
                   value={mensagem}
                   onChange={(e) => setMensagem(e.target.value)}
                   className="border border-gray-300 dark:border-zinc-700 rounded-lg px-3 py-2 text-sm bg-white dark:bg-zinc-800 min-h-[90px]"
                 />
                 <button
-                  onClick={enviarMensagem}
+                  onClick={handleEnviar}
                   className="mt-2 bg-blue-600 text-white text-sm px-4 py-2 rounded-xl hover:bg-blue-700 transition"
                 >
-                  Enviar
+                  Enviar mensagem
                 </button>
               </div>
             </div>
