@@ -7,8 +7,8 @@ O projeto simula uma **rede profissional moderna**, semelhante ao LinkedIn, onde
 ---
 ## 👥 Equipe
 
-| Nome | RM | Função |
-|------|----|--------|
+| Nome | RM |
+|------|----|
 | **Enzo Augusto**    | RM562249 |
 | **Rafael Santiago** | RM563486 | 
 | **Gustavo Neres**   | RM561785 | 
