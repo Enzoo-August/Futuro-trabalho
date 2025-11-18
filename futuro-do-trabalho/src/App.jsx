@@ -131,7 +131,7 @@ export default function App() {
       />
 
       <footer className="text-center p-4 border-t border-gray-200 dark:border-zinc-800 text-sm text-gray-600 dark:text-gray-400">
-        Desenvolvido por Enzo Augusto — Global Solution FIAP 2025
+        Desenvolvido por Enzo Augusto — Global Solution | FIAP 2025
       </footer>
     </div>
   )
