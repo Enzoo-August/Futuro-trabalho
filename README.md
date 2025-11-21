@@ -1,93 +1,83 @@
+🌐 Futuro do Trabalho — Global Solution FIAP 2025
 
-# 🌐 Futuro do Trabalho — Global Solution FIAP 2025
+Plataforma web interativa desenvolvida para conectar pessoas, competências e propósitos por meio da tecnologia.
+O projeto simula uma rede profissional moderna, semelhante ao LinkedIn, onde é possível visualizar, filtrar e explorar perfis de profissionais fictícios com informações completas, interagir com eles e conhecer suas áreas de atuação.
 
-Plataforma web interativa desenvolvida para conectar pessoas, competências e propósitos por meio da tecnologia.  
-O projeto simula uma **rede profissional moderna**, semelhante ao LinkedIn, onde é possível visualizar, filtrar e explorar **perfis de profissionais fictícios** com informações completas, interagir com eles e conhecer suas áreas de atuação.
+🔗 Acesse o Projeto
 
----
-## 👥 Equipe
+🔴 Site ao vivo (Vercel):
+👉 https://futuro-trabalho.vercel.app/
 
-| Nome | RM |
-|------|----|
-| **Enzo Augusto**    | RM562249 |
-| **Rafael Santiago** | RM563486 | 
-| **Gustavo Neres**   | RM561785 | 
+👥 Equipe
+Nome	RM
+Enzo Augusto    - RM562249
+Rafael Santiago -	RM563486
+Gustavo Neres	  - RM561785
 
----
+🎯 Objetivo do Projeto
 
-## 🎯 Objetivo do Projeto
+Promover uma reflexão sobre o Futuro do Trabalho e como a tecnologia pode transformar relações profissionais, tornar o mercado mais justo, inclusivo e colaborativo, e incentivar o desenvolvimento de novas competências.
 
-Promover uma reflexão sobre o **Futuro do Trabalho** e como a tecnologia pode **transformar relações profissionais**, tornar o mercado mais **justo, inclusivo e colaborativo**, e incentivar o **desenvolvimento de novas competências**.
+A aplicação foi desenvolvida com React + Tailwind CSS (versão 4), utilizando dados simulados em JSON local, e apresenta recursos completos de interação e personalização de tema.
 
-A aplicação foi desenvolvida com **React + Tailwind CSS (versão 4)**, utilizando **dados simulados em JSON local**, e apresenta recursos completos de interação e personalização de tema.
+⚙️ Tecnologias Utilizadas
+Tecnologia	Descrição
+React.js (Vite)	Biblioteca principal para criação da SPA (Single Page Application).
+JavaScript (ES6)	Linguagem base do projeto.
+Tailwind CSS v4	Framework CSS para estilização rápida e responsiva.
+HTML5	Estrutura semântica e otimização do layout.
+JSON Local	Armazenamento dos 60 perfis simulados.
+💻 Funcionalidades Principais
 
----
+✅ Listagem de profissionais
+Exibe cards com nome, foto, cargo e status profissional.
 
-## ⚙️ Tecnologias Utilizadas
+✅ Modal interativo de perfil
+Exibe informações detalhadas:
 
-| Tecnologia | Descrição |
-|-------------|------------|
-| **React.js (Vite)** | Biblioteca principal para criação da SPA (Single Page Application). |
-| **JavaScript (ES6)** | Linguagem base do projeto. |
-| **Tailwind CSS v4** | Framework CSS para estilização rápida e responsiva. |
-| **HTML5** | Estrutura semântica e otimização do layout. |
-| **JSON Local** | Armazenamento dos 60 perfis simulados. |
+Dados pessoais
 
----
+Formação e certificações
 
-## 💻 Funcionalidades Principais
+Habilidades técnicas
 
-✅ **Listagem de profissionais**  
-Exibe cards com nome, foto, cargo e status profissional (ex: *Trabalhando na área*, *Em busca de oportunidades*).  
+Soft skills
 
-✅ **Modal interativo de perfil**  
-Exibe informações detalhadas:  
-- Dados pessoais e acadêmicos  
-- Contatos e redes sociais  
-- Biografia e hobbies  
-- Habilidades técnicas e soft skills  
-- Experiências profissionais  
-- Formação, certificações e projetos  
-- Idiomas e áreas de interesse  
+Experiências
 
-✅ **Sistema de busca e filtros**  
-- Busca dinâmica por nome, área ou cargo.  
-- Filtros por **área**, **cidade/localização** e **status profissional**.  
+Projetos
 
-✅ **Dark Mode e Light Mode**  
-Tema alternável e salvo automaticamente no localStorage.  
+Idiomas
 
-✅ **Botões interativos**  
-- Recomendar profissional  
-- Enviar mensagem (com formulário funcional)  
+Áreas de interesse
 
-✅ **Responsividade total**  
-Interface adaptada para desktop, tablet e mobile.  
+✅ Sistema de busca e filtros
 
-✅ **Experiência visual aprimorada**  
-- Favicon personalizado  
-- Tipografia moderna (Metro Font)  
-- Scroll suave no modal  
-- Transições elegantes  
+Busca dinâmica (nome, cargo, área).
 
----
+Filtros por área, localização, status profissional.
 
-## 📁 Estrutura de Pastas
+✅ Dark Mode e Light Mode
+Tema alternável e salvo automaticamente no localStorage.
 
-```
+✅ Botões interativos
+
+Recomendar profissional
+
+Enviar mensagem
+
+✅ 100% Responsivo
+Layout adaptado para mobile, tablet e desktop.
+
+📁 Estrutura de Pastas
 futuro-do-trabalho/
 ├── node_modules/
 ├── public/
 │   └── favicon.ico
 ├── src/
 │   ├── assets/
-│   │   ├── favicon.ico
-│   │   └── react.svg
 │   ├── components/
-│   │   ├── Card.jsx
-│   │   └── Modal.jsx
 │   ├── data/
-│   │   └── profissionais.json
 │   ├── App.jsx
 │   ├── index.css
 │   ├── main.jsx
@@ -96,38 +86,22 @@ futuro-do-trabalho/
 ├── vite.config.js
 ├── README.md
 └── LICENSE
-```
 
----
-
-## 🚀 Como Executar o Projeto
-
-### 1️⃣ Clonar o repositório
-```bash
+🚀 Como Executar o Projeto
+1️⃣ Clonar o repositório
 git clone https://github.com/Enzoo-August/Futuro-trabalho.git
 cd futuro-do-trabalho
-```
 
-### 2️⃣ Instalar as dependências
-```bash
+2️⃣ Instalar as dependências
 npm install
-```
 
-### 3️⃣ Executar o projeto
-```bash
+3️⃣ Executar o projeto
 npm run dev
-```
 
-### 4️⃣ Acessar no navegador
-```
+4️⃣ Acessar no navegador
 http://localhost:5173/
-```
 
----
-
-## 📄 Estrutura do JSON
-
-```json
+📄 Estrutura do JSON
 {
   "id": 1,
   "nome": "João Silva",
@@ -166,23 +140,23 @@ http://localhost:5173/
   "areaInteresses": ["IA Ética", "Educação"],
   "statusProfissional": "Trabalhando na área"
 }
-```
 
----
+💡 Diferenciais
 
-## 💡 Diferenciais
+Interface moderna e intuitiva
 
-- Interface moderna e intuitiva  
-- Tema escuro automático persistente  
-- Perfis completos (60 profissionais)  
-- JSON detalhado com hobbies e biografias  
-- Código limpo e 100% funcional  
-- Totalmente responsivo  
+Tema escuro persistente
 
----
+Perfis completos (60 profissionais)
 
-## 🧠 Conclusão
+Scroll suave e animações leves
 
-O projeto **Futuro do Trabalho** demonstra como a tecnologia pode ser usada para criar pontes entre profissionais, impulsionar oportunidades e valorizar habilidades humanas em um cenário digital e colaborativo.
+Arquitetura limpa e organizada
 
-> “O futuro do trabalho não é sobre máquinas substituindo pessoas, mas sobre pessoas usando tecnologia para se conectar, evoluir e transformar o mundo.”
+Totalmente responsivo
+
+🧠 Conclusão
+
+O projeto Futuro do Trabalho demonstra como a tecnologia pode ser usada para criar pontes entre profissionais, impulsionar oportunidades e valorizar habilidades humanas em um cenário digital e colaborativo.
+
+“O futuro do trabalho não é sobre máquinas substituindo pessoas, mas sobre pessoas usando tecnologia para se conectar, evoluir e transformar o mundo.”
